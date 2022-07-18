@@ -31,4 +31,4 @@ jobs:
         with:
           file: Dockerfile.autoindex
           push: true
-          tags: sourcegraph/scip-python:autoindex
+          tags: sourcegraph/scip-python:autoindex,sourcegraph/scip-python:${{ github.ref_name }}
